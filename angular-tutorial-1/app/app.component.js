@@ -15,7 +15,7 @@ var Hero = (function () {
     Hero = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>{{title}}</h1><h2>{{hero}} details!</h2>'
+            template: '<h1>{{title}}</h1><h2>{{hero.name}} details!</h2>'
         }), 
         __metadata('design:paramtypes', [])
     ], Hero);

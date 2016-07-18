@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: '<h1>{{title}}</h1><h2>{{hero}} details!</h2>'
+  template: '<h1>{{title}}</h1><h2>{{hero.name}} details!</h2>'
 })
 
 
