@@ -12,13 +12,6 @@ var core_1 = require('@angular/core');
 var Hero = (function () {
     function Hero() {
     }
-    Hero = __decorate([
-        core_1.Component({
-            selector: 'my-app',
-            template: '<h1>{{title}}</h1><h2>{{hero.name}} details!</h2>'
-        }), 
-        __metadata('design:paramtypes', [])
-    ], Hero);
     return Hero;
 }());
 exports.Hero = Hero;
@@ -30,6 +23,13 @@ var AppComponent = (function () {
             name: 'Windstorm'
         };
     }
+    AppComponent = __decorate([
+        core_1.Component({
+            selector: 'my-app',
+            template: '<h1>{{title}}</h1><h2>{{hero.name}} details!</h2>'
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppComponent);
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
